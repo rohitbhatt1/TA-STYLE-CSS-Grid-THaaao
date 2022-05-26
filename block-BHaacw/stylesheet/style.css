@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #3a4a4f;
+}
+
+body h1 {
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.container header,
+.container div {
+  background-color: #ffffff;
+  padding: 0.8rem;
+  border-top: 3px solid #2f95be;
+}
+
+.container header {
+  grid-column: span 3;
+  background-color: #ffffff;
+  padding: 0.8rem;
+}
+
+.container header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container header li a {
+  color: #2f95be;
+  font-weight: 500;
+}
+
+.container div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.container div a {
+  color: red;
+}
+
+.container .box2 {
+  grid-row: span 3;
+}
+
+.container .box2 .img {
+  border-radius: 50%;
+  width: 100%;
+  height: 0;
+  border: 2px solid #2f95be;
+  overflow: hidden;
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.container .box2 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.container .box3 {
+  padding: 0;
+}
+
+.container .box3 a {
+  background-color: red;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+
+.container .box3 h2 {
+  padding: 1rem;
+  padding-bottom: 0;
+  padding-right: 1rem;
+}
+
+.container .box3 p {
+  padding: 0 1rem;
+}
+
+.container .box4 {
+  grid-row: span 2;
+}
+
+.container .box5 {
+  padding: 0;
+}
+
+.container .box5 h2 {
+  background-color: #2f95be;
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.container .box5 p {
+  padding: 0 1rem;
+}
+
+.container .box5 a {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+@media all and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    padding-bottom: 2rem;
+  }
+  .container header,
+  .container div {
+    grid-column: span 3;
+  }
+  .container .graph {
+    grid-column: span 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
