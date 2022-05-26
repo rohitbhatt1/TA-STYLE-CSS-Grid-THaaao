@@ -54,142 +54,116 @@ table {
 
 body {
   background-color: #3a4a4f;
-}
-
-body h1 {
-  color: white;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  line-height: 1.5;
+  padding: 3rem 0;
 }
 
 .container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.container header,
-.container div {
-  background-color: #ffffff;
-  padding: 0.8rem;
-  border-top: 3px solid #2f95be;
-}
-
-.container header {
-  grid-column: span 3;
-  background-color: #ffffff;
-  padding: 0.8rem;
-}
-
-.container header ul {
+.flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.container header li a {
-  color: #2f95be;
-  font-weight: 500;
+ul {
+  background-color: white;
+  padding: 0.8rem;
+  border-top: 3px solid #0095be;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.container div {
+ul li a {
+  color: #0095be;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+  padding-bottom: 0.8rem;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 0.8rem;
+}
+
+.learn {
+  color: #fc2e1b;
+  font-size: 1rem;
+}
+
+.item {
+  border-top: 3px solid #0095be;
+  background-color: white;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+
+.color {
+  background-color: #fc2e1b;
+  color: white;
+  padding: 0.6rem;
+}
+
+.title {
+  background-color: #0095be;
+  color: white;
+  padding: 0.6rem;
+}
+
+.grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 1.5rem;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 200px 200px 200px;
+      grid-template-rows: 200px 200px 200px;
 }
 
-.container div a {
-  color: red;
-}
-
-.container .box2 {
+.cat {
   grid-row: span 3;
 }
 
-.container .box2 .img {
+.cat img {
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
-  width: 100%;
-  height: 0;
-  border: 2px solid #2f95be;
-  overflow: hidden;
-  padding-bottom: 100%;
-  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }
 
-.container .box2 img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-
-.container .box3 {
-  padding: 0;
-}
-
-.container .box3 a {
-  background-color: red;
-  color: #ffffff;
-  padding: 0.5rem;
-}
-
-.container .box3 h2 {
-  padding: 1rem;
-  padding-bottom: 0;
-  padding-right: 1rem;
-}
-
-.container .box3 p {
-  padding: 0 1rem;
-}
-
-.container .box4 {
+.graph {
   grid-row: span 2;
-}
-
-.container .box5 {
-  padding: 0;
-}
-
-.container .box5 h2 {
-  background-color: #2f95be;
-  color: #ffffff;
-  padding: 1rem;
-}
-
-.container .box5 p {
-  padding: 0 1rem;
-}
-
-.container .box5 a {
-  padding: 1rem;
-  padding-top: 0;
-}
-
-@media all and (max-width: 768px) {
-  html {
-    font-size: 14px;
-  }
-  .container {
-    padding-bottom: 2rem;
-  }
-  .container header,
-  .container div {
-    grid-column: span 3;
-  }
-  .container .graph {
-    grid-column: span 1;
-  }
 }
 /*# sourceMappingURL=style.css.map */
