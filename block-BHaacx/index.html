@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Stimulus</title>
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/5cc6fb9f6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="container">
+      <div class="flex justify-between align-center">
+        <a href="#" class="brand">Stimulus</a>
+
+        <input type="checkbox" id="toggle" id="toggle" />
+        <label for="toggle" id="bars"><i class="fas fa-bars"></i></label>
+        <label for="toggle" id="cross"><i class="fas fa-times"></i></label>
+        <nav>
+          <ul class="flex justify-between align-center">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Experiences</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main-->
+    <main>
+      <div class="outer-box">
+        <div class="box1">
+          <img
+            src="./assets/media/home-img.jpg"
+            class="image"
+            alt="Image Here"
+          />
+        </div>
+        <div class="box2">
+          <h6>WELCOME TO MY WEBSITE</h6>
+          <h1>
+            Hello, I am <span>Stimulus</span> currently based in New You city.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            explicabo exercitationem esse id neque beatae. Nesciunt perferendis,
+            cupiditate delectus.
+          </p>
+          <a href="#" class="btn btn-secondary"> GET STARTED</a>
+        </div>
+        <div class="box3">
+          <h2>Donec Auctor</h2>
+          <h5>Lorem ipsum dolor sit amet.</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis
+            explicabo exercitationem esse id neque beatae. Nesciunt perferendis,
+            cupiditate delectus.
+          </p>
+        </div>
+        <div class="box4">
+          <img
+            src="./assets/media/quotes-bg.jpg"
+            class="image"
+            alt="Image Here"
+          />
+        </div>
+        <div class="box5">
+          <h2>My Skills</h2>
+            <p>Photoshop, HTML CSS JS, Web Design</p>
+            <div class="flex">
+                <label for="fe">Frontend Design</label>
+                <p>90%</p>
+            </div>
+            <progress id="fe" value="90" max="100"> 90% </progress>
+            <div class="flex">
+                <label for="be">Backend Procressing</label>
+                <p>70%</p>
+            </div>
+            <progress id="be" value="70" max="100"> 70% </progress>
+            <div class="flex">
+                <label for="html">HTML5 & CSS3</label>
+                <p>80%</p>
+            </div>
+            <progress id="html" value="80" max="100"> 80% </progress>
+        </div>
+        <div class="box6">
+          <div><i class="fas fa-paper-plane"></i></div>
+          <h3>Interface Design</h3>
+          <p>
+            Lorem ipsum dolor sit<br />
+            amet consectetur adipisicing <br />
+            elit facilis.
+          </p>
+        </div>
+        <div class="box7">
+          <div><i class="fas fa-desktop"></i></div>
+          <h3>Media Strategy</h3>
+          <p>
+            Lorem ipsum dolor sit<br />
+            amet consectetur adipisicing <br />
+            elit facilis.
+          </p>
+        </div>
+        <div class="box8">
+          <div><i class="fas fa-th"></i></div>
+          <h3>Mobile Apps</h3>
+          <p>
+            Lorem ipsum dolor sit<br />
+            amet consectetur adipisicing <br />
+            elit facilis.
+          </p>
+        </div>
+        <div class="box9">
+          <div><i class="fab fa-html5"></i></div>
+          <h3>Coding</h3>
+          <p>
+            Lorem ipsum dolor sit<br />
+            amet consectetur adipisicing <br />
+            elit facilis.
+          </p>
+        </div>
+        <div class="box10">
+          <img
+            src="./assets/media/experience-img.jpg"
+            class="image"
+            alt="Image Here"
+          />
+        </div>
+        <div class="box11">
+          <h2>My Experiences</h2>
+          <h5>Lorem ipsum dolor sit</h5>
+          <div class="flex justify-start align-center">
+            <i class="fas fa-laptop"></i>
+            <div>
+              <h4>Graphic Designer <span>2014 Jul - 2015 Sep</span></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="flex justify-start align-center">
+            <i class="fas fa-laptop"></i>
+            <div>
+              <h4>Web Designer <span>2015 Oct - 2017 Jan</span></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box12">
+          <h2>My Education</h2>
+          <h5>Lorem ipsum dolor sit</h5>
+          <div class="flex justify-start align-center">
+            <i class="fas fa-laptop"></i>
+            <div>
+              <h4>Master In Design <span>2012 Jan - 2014 May</span></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+          <div class="flex justify-start align-center">
+            <i class="fas fa-laptop"></i>
+            <div>
+              <h4>Bachelor Of Arts<span>2008 May - 2011 Dec</span></h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="box13">
+          <img
+            src="./assets/media/education-img.jpg"
+            class="image"
+            alt="Image Here"
+          />
+        </div>
+        <div class="box14">
+          <h2>My Education</h2>
+          <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea rows="10">Your Message</textarea>
+          <a href="#" class="btn btn-primary">Send</a>
+        </div>
+        <div class="box15">
+          <img
+            src="./assets/media/about-img.jpg"
+            class="image"
+            alt="Image Here"
+          />
+        </div>
+        <div class="box16">
+          <h3>Visit my office</h3>
+          <address>123, New Street 4545, New York City, USA</address>
+          <h3>Contact</h3>
+          <p>
+            <i class="fas fa-phone"></i>
+            <a href="tel:+1-123456789">+1-123456789</a>
+          </p>
+          <p>
+            <i class="far fa-envelope"></i
+            ><a href="mailto:info@company.com">info@comp.com</a>
+          </p>
+          <p>
+            <i class="fas fa-globe-asia"></i
+            ><a href="company.com">company.com</a>
+          </p>
+        </div>
+        <div class="box17">
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13503.678777884817!2d76.34486529908251!3d32.206394499844336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391b530e24726e0d%3A0x71ff0cae0784712d!2sAltCampus%20Services%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1622732729720!5m2!1sen!2sin"
+              width="100%"
+              height="300px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer>
+      <div class="footer-top container">
+        <small> Copyright &copy; 2021 Your Company | Design : <strong>templatemo</strong> </small>
+      </div>
+      <div class="footer-bottom container">
+        <nav>
+          <ul class="flex justify-center align-center">
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.google.com/" target="_blank"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://dribbble.com" target="_blank"
+                ><i class="fab fa-dribbble"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
